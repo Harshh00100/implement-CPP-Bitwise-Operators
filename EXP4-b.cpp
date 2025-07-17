@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int a=1200;
+    int a=128;
     int bit_set ,bit_reset, bit_setting,bit_resetting;
     // Setting the 3rd bit (counting from 0)
     cout << "enter the bit which need to be set: ";
