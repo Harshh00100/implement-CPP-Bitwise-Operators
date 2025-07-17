@@ -1,9 +1,12 @@
 # Implement-CPP-Bitwise-Operators
 Aim :
 To study and implement C++ Bitwise Operators
+
 Software / tools :
 Mingw compiler , Vscode , online compiler for C++
- #Program 1 :  Bitwise Operators in C++
+
+#Program 1 :  Bitwise Operators in C++
+
 This program starts with the declaration and initialization of two variables a and b with 10 (1010) and 14(1110) respectively.  The program explain different types of bitwise operations and its working:
 AND (&) examines each bit of both numbers and returns 1 if both are equal to 1.
 OR (|) returns 1 if the first number has at least one of the bits equal to 1.
