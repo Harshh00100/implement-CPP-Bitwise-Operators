@@ -29,6 +29,14 @@ Algorithm:
 
 The program begins by creating an variable 'a' and assigning it a value of 128. In binary, this is represented as 10000000. The program demonstrates to the user the process of setting and resetting bits in a number. The user is prompted to enter the position of a bit to set (change to 1). The user is then prompted to enter the position of a bit to reset (change to 0). To set a bit, the program uses the expression a | (1 << bit_set) which shifts 1 to the left by bit_set positions then uses a bitwise OR to turn that bit ON. To reset a bit, it uses a & (~(1 << bit_resetting)) which shifts 1 to the left, then uses bitwise NOT to create a mask, then ANDs to turn that bit OFF. The results of setting and resetting the bits are printed, and the program demonstrates basic bit manipulation, a common way to manipulate bits in system programming, embedded systems, or in performance-critical code.
 
+Algorithm:
+- Start
+- Initialize Variables
+- Input Operations
+- Bit Manipulation
+- Set the chosen bit:
+- Output Results
+- End
 
 
 Conclusion:
