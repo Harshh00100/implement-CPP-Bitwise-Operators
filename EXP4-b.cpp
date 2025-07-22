@@ -17,3 +17,10 @@ int main() {
     cout << "After resetting bit " << bit_reset << ": " << bit_resetting << "\n";
     return 0;
 }
+
+/* output:
+enter the bit which need to be set: 4
+enter the bit which need to be reset: 7
+After setting bit 4: 144
+After resetting bit 7: 0
+    */
